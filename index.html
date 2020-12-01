@@ -19,7 +19,7 @@
                     <a href="#" class="nav__logo">Abhishek</a>
                 </div>
                 <div class="nav__list">
-                    <a href="#" class="nav__link">
+                    <a href="#" class="nav__link active">
                         <ion-icon name="home-outline"class="nav__icon"></ion-icon>
                         <span class="nav__name">Dashboard</span>
                     </a>
@@ -27,24 +27,41 @@
                         <ion-icon name="chatbubbles-outline"class="nav__icon"></ion-icon>
                         <span class="nav__name">Messenger</span>
                     </a>
-                    <a href="#" class="nav__link">
+                    <div class="nav__link collapse">
                         <ion-icon name="briefcase-outline"class="nav__icon"></ion-icon>
                         <span class="nav__name">Projects</span>
-                    </a>
+
+                        <ion-icon name="chevron-down-outline" class="collapse__link"></ion-icon>
+
+                        <ul class="collapse__menu">
+                            <a href="#" class="collapse__sublink">Data</a>
+                            <a href="#" class="collapse__sublink">Group</a>
+                            <a href="#" class="collapse__sublink">Members</a>
+                        </ul>
+                    </div>
                     <a href="#" class="nav__link">
                         <ion-icon name="pie-chart-outline"class="nav__icon"></ion-icon>
                         <span class="nav__name">Analytics</span>
                     </a>
-                    <a href="#" class="nav__link">
+                    <div class="nav__link collapse">
                         <ion-icon name="pie-chart-outline"class="nav__icon"></ion-icon>
                         <span class="nav__name">Team</span>
-                    </a>
+
+                        <ion-icon name="chevron-down-outline" class="collapse__link"></ion-icon>
+
+                        <ul class="collapse__menu">
+                            <a href="#" class="collapse__sublink">Data</a>
+                            <a href="#" class="collapse__sublink">Group</a>
+                            <a href="#" class="collapse__sublink">Members</a>
+                        </ul>
+                    </div>
                     <a href="#" class="nav__link">
                         <ion-icon name="cog-outline"class="nav__icon"></ion-icon>
                         <span class="nav__name">Settings</span>
                     </a>
                 </div>
             </div>
+
             <a href="#" class="nav__link">
                 <ion-icon name="log-out-outline"class="nav__icon"></ion-icon>
                 <span class="nav__name">Log Out</span>
